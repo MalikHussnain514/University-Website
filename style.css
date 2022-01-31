@@ -82,6 +82,28 @@ nav img {
   background: #f44336;
   transition: 1s;
 }
+
+.hero-btn::before {
+  border-top: 1.2px solid white;
+  display: block;
+  height: 1px;
+  content: " ";
+  width: 17%;
+  position: absolute;
+  left: -20px;
+  top: 1.57em;
+}
+.hero-btn::after {
+  border-top: 1.2px solid white;
+  display: block;
+  height: 1px;
+  content: " ";
+  width: 17%;
+  position: absolute;
+  right: -20px;
+  top: 1.57em;
+}
+
 nav .fa {
   visibility: hidden;
 }
